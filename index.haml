@@ -1,0 +1,62 @@
+!!!
+%html{:lang => "en"}
+  %head.html5reset-bare-bones
+    %meta{:charset => "utf-8"}
+      %title Kitefire Perth - Web Design, Games and Mobile Development
+      %meta{:content => "Elegant, engaging web design, games and mobile development. Contact: james@kitefire.com", :name => "description"}
+        %meta{:content => "IE=9", "http-equiv" => "x-ua-compatible"}
+          %meta{:content => "z93oi81wbYAtFiOlMpErjvfSk80U24mUldgSmYVfFX4", :name => "google-site-verification"}/
+          %link{:href => "http://kitefire.com/", :rel => "canonical"}/
+          %link{:href => "_/css/main.css", :rel => "stylesheet"}
+            %link{:href => "_/css/_print/main.css", :media => "print", :rel => "stylesheet"}
+              %link{:href => "css/kite.css", :rel => "stylesheet"}
+                %link{:href => "http://kfimg.s3.amazonaws.com/walkway/stylesheet.css", :rel => "stylesheet"}
+                  /[if IE]
+                    <link rel="stylesheet" href="_/css/_patches/win-ie-all.css">
+                    <link rel="stylesheet" href="css/ie7.css">
+                  /[if IE 7]
+                    <link rel="stylesheet" href="_/css/_patches/win-ie7.css">
+                  /[if lt IE 7]
+                    <link rel="stylesheet" href="_/css/_patches/win-ie-old.css">
+                    <link rel="stylesheet" href="css/ie6.css">
+                  /[if lt IE 8]
+                    <script src="http://ie7-js.googlecode.com/svn/version/2.0(beta3)/IE8.js"></script>
+                  /[if lte IE 8]
+                    <script src="_/js/modernizr-1.5.min.js"></script>
+                  :javascript
+                    var _gaq = _gaq || [];
+                    _gaq.push(['_setAccount', 'UA-18102331-1']);
+                    _gaq.push(['_trackPageview']);
+			
+                    (function() {
+                      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                    })();
+			
+		  %body
+    .bContainer
+      .cContainer
+        %header
+          #kfTitle
+            %h1 Kitefire
+          %nav
+            %a#kfContact{:href => "mailto:james@kitefire.com"}
+              %img{:alt => "Contact Me!", :src => "http://kfimg.s3.amazonaws.com/kfcontact.jpg"}
+        #content
+          #kfTagline awesome web experiences.
+          #kfPastProjects Past Projects
+          %div
+            %article
+              %a.kfFolioLink{:href => "http://voices.canwa.com.au/", :target => "_blank"}
+                %img{:alt => "Voices of the Wheatbelt Project Website, Community Arts Network Western Australia", :src => "http://kfimg.s3.amazonaws.com/folio1.jpg"}/
+            %article
+              %a.kfFolioLink{:href => "http://www.environment.murdoch.edu.au/groups/ecology/", :target => "_blank"}
+                %img{:alt => "Terrestrial Ecology Research Group Website, Murdoch University, WA", :src => "http://kfimg.s3.amazonaws.com/folio2.jpg"}/
+        %footer
+          #kfLogo Kitefire.
+          %p
+            Elegant, engaging web design, games and mobile development in Perth, Australia.
+            %br
+              Contact:
+              %a{:href => "mailto:james@kitefire.com"} james@kitefire.com

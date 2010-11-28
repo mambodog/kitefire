@@ -1,0 +1,114 @@
+body {
+	background: #dedede;
+	background-image: url('http://kfimg.s3.amazonaws.com/kitefiresite72_05.png');
+	background-position: center;
+	background-repeat: repeat-y;
+}
+
+.bContainer {
+	background-image: url('http://kfimg.s3.amazonaws.com/kitefiresite72_03.png');
+	background-position: center top;
+	background-repeat: no-repeat;
+	min-height: 478px;
+
+}
+
+.cContainer {
+	width: 950px;
+	margin: auto;
+	padding-top: 45px;
+}
+
+#kfTitle h1 {
+	text-indent: -9999px;
+}
+#kfTitle {
+
+		background-image: url('http://kfimg.s3.amazonaws.com/kftitle-trans.png');
+		width: 565px;
+		height: 117px;
+		position: relative;
+		left: 2px;
+		bottom: -16px;
+		float: left;
+}
+#nav {
+	float: left;
+	position: relative;
+	bottom: -62px;
+	left: 40px;
+}
+
+#kfContact span {
+	text-indent: -9999px;
+}
+
+#kfTagline {
+	margin-top: 140px;
+	margin-bottom: 50px;
+	font-family: WalkwayRegular, sans-serif;
+	font-size: 100px;
+	width: 700px;
+	color: #252525;
+}
+
+#content {
+	position: relative;
+	//left: 70px;
+	width: 700px;
+	margin: auto;
+	padding-left: 70px;
+	//padding-right: 90px	;
+}
+
+article img {
+	border: solid 10px #fff;
+	margin: 5px;
+}
+
+article img:hover {
+	border: solid 10px #999;
+}
+
+#kfPastProjects {
+		background-image: url('http://kfimg.s3.amazonaws.com/kfpastprojects.png');
+		width: 197px;
+		height: 33px;
+		text-indent: -9999px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+}
+
+#kfLogo {
+		background-image: url('http://kfimg.s3.amazonaws.com/kfkitefire-trans.png');
+		width: 109px;
+		height: 31px;
+		text-indent: -9999px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+}
+
+footer {
+	display: block;
+	position: relative;
+	//left: 70px;
+	width: 700px;
+	margin: auto;
+	margin-top: 20px;
+	padding-left: 70px;
+	//padding-right: 90px;
+}
+
+p {
+	font-family: "Gill Sans", "Gill Sans MT", sans-serif;
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: 25px;
+	padding-bottom: 50px;
+}
+
+a {
+	font-weight: regular;
+	color: #00ccff;
+	font-weight: 400;
+}
